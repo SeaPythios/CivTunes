@@ -6,4 +6,4 @@
 - Drag the folder labeled "MusicTriggers" into your \minecraft\config folder
 - Enjoy the tunes
 
--# Please do note this project is heavily WIP at the moment and only includes basic functionality
+Please do note this project is heavily WIP at the moment and only includes basic functionality
