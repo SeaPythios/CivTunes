@@ -4,7 +4,7 @@
 toggles_path = "toggles"
 
 [channels]
-	[channels.example]
+	[channels.civmc]
 		commands = "commands"
 		explicitly_overrides = false
 		has_paused_music = false
