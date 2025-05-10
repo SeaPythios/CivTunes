@@ -1,0 +1,26 @@
+#  Main header!
+#  Line 2
+
+[songs]
+	[songs."Fanfare_(v1)"]
+		triggers = [ "Zones-pavia" ]
+
+[triggers]
+	[triggers.universal]
+		active_cooldown = "0"
+		fade_in = "0"
+		fade_out = "0"
+		persistence = "0"
+		ticks_before_active = "0"
+		ticks_before_audio = "0"
+		ticks_between_audio = "0"
+	[triggers.zones]
+		identifier = "pavia"
+		zone_max_x = "10000"
+		zone_max_y = "300"
+		zone_max_z = "10000"
+		zone_min_x = "-10000"
+		zone_min_y = "-100"
+		zone_min_z = "-10000"
+		play_when_paused = "true"
+
