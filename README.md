@@ -10,14 +10,18 @@
 - Add song to the songs folder (mp3 file) (PLEASE DO NOT SHARE PIRATED CONTENT)
 
 - In example\main add song to [songs] following this format:
+  ```
 	[songs."filename"] (Do not add a file extension)
 		triggers = [ "Zones-zonename" ]
+  ```
 
 - Under [triggers] add the location trigger following this format:
+  ```
 	[[triggers.zones]]
+
 		identifier = <"zone name"> 
 			Unique name for the zone
-
+  
 		priority = <default: 3300>
 			By default the highest priority trigger always
    			wins and will be active. Set this higher to override the global playlist or set localized zones that override larger areas.
@@ -48,5 +52,6 @@
 
 		play_when_paused = "true" 
 			(or false, idfc)
+  ```
 =======
 Please do note this project is heavily WIP at the moment and only includes basic functionality
