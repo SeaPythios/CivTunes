@@ -7,12 +7,14 @@
 - Enjoy the tunes
 
 ## How To Add Your Region:
-- Add song to the songs folder (mp3 file) (PLEASE DO NOT SHARE PIRATED CONTENT)
+- In civmc\redirect, add your song with
+<song_name> = <youtube link>
 
 - In example\main add song to [songs] following this format:
   ```
-	[songs."filename"] (Do not add a file extension)
+	[songs.<songname>] (
 		triggers = [ "Zones-zonename" ]
+		volume = <"0.1 - 1">
   ```
 
 - Under [triggers] add the location trigger following this format:
@@ -49,9 +51,6 @@
 		zone_min_z = <"min x coord">
 			The Z coordinate of the player must be exclusively greater than this
     			value for the trigger to activate.
-
-		play_when_paused = "true" 
-			(or false, idfc)
   ```
 =======
 Please do note this project is heavily WIP at the moment and only includes basic functionality
