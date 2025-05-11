@@ -4,7 +4,7 @@
 toggles_path = "toggles"
 
 [channels]
-	[[channels.civmc]]
+	[channels.civmc]
 		commands = "commands"
 		explicitly_overrides = false
 		has_paused_music = false
@@ -17,8 +17,7 @@ toggles_path = "toggles"
 		redirect = "redirect"
 		renders = "renders"
 		sound_category = "music"
-
-	[[channels.civmc_ambience]]
+	[channels.civmc_ambience]
 		commands = "commands"
 		explicitly_overrides = false
 		has_paused_music = false

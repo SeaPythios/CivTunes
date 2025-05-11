@@ -18,4 +18,11 @@ for_river = https://www.youtube.com/watch?v=9QfPDmzpC2Q
 tornado_siren = https://youtu.be/9793cuoNpQ0
 
 
+inno_al_re = https://youtu.be/FLvrs7edzAM
+se_il_papa = https://youtu.be/rDwFp8mYg18
+csinom_palko = https://youtu.be/1XwQufoEwbA
 
+youngn = https://youtu.be/lsgPzHqxu_4
+
+lofi = https://www.youtube.com/watch?v=okm840YSj2c
+we_all_lift = https://youtu.be/mPTCq3LiZSE
