@@ -1,0 +1,93 @@
+#  Main header!
+#  Line 2
+
+[songs]
+	[songs.paviaambience]
+		triggers = [ "Zones-paviaambience" ]
+		volume = "0.5"
+	[songs.jungle]	
+		triggers = [ "biome-jungle" "zones-above_ground" ]
+		volume = "0.5"
+	[songs.water]
+		triggers = [ "biome-water" "zones-aboveground" ]
+		volume = "0.5"
+	[songs.snow]
+		triggers = [ "biome-snow" "zones-aboveground" ]
+		volume = "0.5"
+	[songs.forest]
+		triggers = [ "biome-forest" "zones-aboveground" ]
+		volume = "0.5"
+	[songs.dry]
+		triggers = [ "biome-dry" "zones-aboveground" ]
+		volume = "0.5"
+	[songs.other]
+		triggers = [ "biome-other" "zones-aboveground" ]
+		volume = "0.5"
+
+	
+[triggers]
+	[triggers.universal]
+		active_cooldown = "0"
+		fade_in = "0"
+		fade_out = "100"
+		persistence = "30"
+		ticks_before_active = "0"
+		ticks_before_audio = "0"
+		ticks_between_audio = "0"
+		play_when_paused = "true"
+	[[triggers.zones]]
+		identifier = "paviaambience"
+		priority = "5000"
+		zone_max_x = "900"
+		zone_max_y = "300"
+		zone_max_z = "-2790"
+		zone_min_x = "550"
+		zone_min_y = "40"
+		zone_min_z = "-3200"
+	[[triggers.zones]]
+		identifier = "aboveground"
+		zone_max_x = "20000"
+		zone_max_y = "150"
+		zone_max_z = "20000"
+		zone_min_x = "-20000"
+		zone_min_y = "50"
+		zone_min_z = "-20000"
+
+	[[triggers.dimension]]
+	identifier = "overworld"
+	resource_name = "overworld"
+
+	[[triggers.dimension]]
+	identifier = "nether"
+	resource_name = "nether"
+
+	[[triggers.biome]]
+	identifier = "water"
+	resource_name = [ "ocean", "beach", "shore", "river" ]
+	priority = "4000"
+
+	[[triggers.biome]]
+	identifier = "snow"
+	resource_name = [ "snowy", "frozen", "jagged", "ice spikes", "tundra", "#minecraft:grove" ]
+	priority = "1000"
+
+	[[triggers.biome]]
+	identifier = "dry"
+	resource_name = [ "desert", "badlands" ]
+	priority = "2000"
+
+	[[triggers.biome]]
+	identifier = "forest"
+	resource_name = [ "forest", "tundra", "grove", ]
+	priority = "3000"
+
+	[[triggers.biome]]
+	identifier = "jungle"
+	resource_name = [ "jungle" ]
+	priority = "2000"
+
+	[[triggers.biome]]
+	identifier = "other"
+	resource_name = [ "meadows", "windswept", "plains", "savanna" ]
+	priority = "3000"
+	

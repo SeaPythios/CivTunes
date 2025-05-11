@@ -1,0 +1,7 @@
+paviaambience = https://youtu.be/WJrqwa6tMQY
+jungle = https://youtu.be/5Jzp5H4mQVE
+snow = https://youtu.be/RhvyGiJs120
+dry = https://youtu.be/4E-_Xpj0Mgo
+forest = https://youtu.be/xNN7iTA57jM
+water = https://youtu.be/PoAeFpUB1hA
+other = https://www.youtube.com/watch?v=WvmCUxpnePM

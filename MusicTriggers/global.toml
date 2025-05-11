@@ -4,7 +4,7 @@
 toggles_path = "toggles"
 
 [channels]
-	[channels.civmc]
+	[[channels.civmc]]
 		commands = "commands"
 		explicitly_overrides = false
 		has_paused_music = false
@@ -17,6 +17,20 @@ toggles_path = "toggles"
 		redirect = "redirect"
 		renders = "renders"
 		sound_category = "music"
+
+	[[channels.civmc_ambience]]
+		commands = "commands"
+		explicitly_overrides = false
+		has_paused_music = false
+		jukebox = "jukebox"
+		local_folder = "config/MusicTriggers/songs"
+		main = "main"
+		overrides_music = true
+		paused_by_jukebox = true
+		pauses_overrides = false
+		redirect = "redirect"
+		renders = "renders"
+		sound_category = "ambient"
 
 [debug]
 	allow_timestamps = false

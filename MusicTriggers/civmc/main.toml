@@ -2,26 +2,112 @@
 #  Line 2
 
 [songs]
-	[songs.house]
-		triggers = [ "Zones-pavia" ]
-		volume = "0.75"
+	[songs.final_duet]
+		triggers = [ "zones-pavia_theatre" "dimension-overworld" ]
+
+	[songs.for_river]
+		triggers = [ "zones-pavia_theatre" "dimension-overworld" ]
+
+	[songs.tarrey_town]
+		triggers = [ "zones-pavia_bedford" "dimension-overworld" ]
+
+
+	[songs.mountains]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.lurelin_village]
+		triggers = [ "dimension-overworld" ] 
+
+	[songs.fieldday]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.mountain]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.daddys_cassette]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.left_to_bloom]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.echo_in_the_wind]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.a_familiar_room]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.creator]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.deeper]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.time]
+		triggers = [ "dimension-overworld" ]
+
+	[songs.tornado_siren]
+		triggers = [ "dimension-overworld" "zones-pavia_vault" ]
+	[songs.travelers]
+		triggers = [ "dimension-overworld" ]
+
+	
 
 [triggers]
 	[triggers.universal]
 		active_cooldown = "0"
-		fade_in = "20"
-		fade_out = "20"
-		persistence = "0"
+		fade_in = "40"
+		fade_out = "40"
+		persistence = "40"
 		ticks_before_active = "0"
 		ticks_before_audio = "0"
-		ticks_between_audio = "0"
+		ticks_between_audio = "400"
 		play_when_paused = "true"
-	[triggers.zones]
-		identifier = "pavia"
-		zone_max_x = "10000"
-		zone_max_y = "300"
-		zone_max_z = "10000"
-		zone_min_x = "-10000"
-		zone_min_y = "-100"
-		zone_min_z = "-10000"
 
+	[[triggers.dimension]]
+		identifier = "overworld"
+		resource_name = "overworld"
+
+	[[triggers.dimension]]
+		identifier = "nether"
+		resource_name = "nether"
+
+	[[triggers.zones]]
+		priority = "3500"
+		identifier = "pavia"
+		zone_max_x = "900"
+		zone_max_y = "300"
+		zone_max_z = "-2790"
+		zone_min_x = "550"
+		zone_min_y = "40"
+		zone_min_z = "-3200"
+	[[triggers.zones]]
+		priority = "3600"
+		identifier = "pavia_theatre"
+		zone_max_x = "861"
+		zone_max_y = "110"
+		zone_max_z = "-3210"
+		zone_min_x = "790"
+		zone_min_y = "50"
+		zone_min_z = "-3250"
+	[[triggers.zones]]
+		priority = "3600"
+		identifier = "pavia_bedford"
+		zone_max_x = "1332"
+		zone_max_y = "110"
+		zone_max_z = "-2689"
+		zone_min_x = "942"
+		zone_min_y = "50"
+		zone_min_z = "-2901"
+	[[triggers.zones]]
+		priority = "3600"
+		identifier = "pavia_vault"
+		zone_max_x = "1125"
+		zone_max_y = "300"
+		zone_max_z = "-2990"
+		zone_min_x = "1038"
+		zone_min_y = "20"
+		zone_min_z = "-3090"
+
+
+	
+	
