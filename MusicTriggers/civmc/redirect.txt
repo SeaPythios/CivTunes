@@ -26,3 +26,14 @@ youngn = https://youtu.be/lsgPzHqxu_4
 
 lofi = https://www.youtube.com/watch?v=okm840YSj2c
 we_all_lift = https://youtu.be/mPTCq3LiZSE
+
+comfortably_numb = https://www.youtube.com/watch?v=_FrOQC-zEog
+another_brick = https://youtu.be/5IpYOF4Hi6Q
+stairway_to_heaven = https://www.youtube.com/watch?v=X791IzOwt3Q
+this_fire = https://youtu.be/haW_ruZ_Be8
+magical_mystery_tour = https://youtu.be/ge214KAOnLY
+house_of_the_rising_sun = https://youtu.be/s_Kecv6eJNM
+paint_it_black = https://youtu.be/O4irXQhgMqg
+dream_on = https://youtu.be/89dGC8de0CA
+sympathy_for_the_devil = https://youtu.be/GgnClrx8N2k
+the_reaper = https://youtu.be/Dy4HA3vUv2c

@@ -59,6 +59,26 @@
 		volume = 1.0
 	[songs.we_all_lift]
 		triggers = [ "dimension-overworld" "zones-fempire" ]
+	[songs.comfortably_numb]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
+	[songs.another_brick]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
+	[songs.stairway_to_heaven]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
+	[songs.this_fire]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
+	[songs.magical_mystery_tour]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
+	[songs.house_of_the_rising_sun]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
+	[songs.paint_it_black]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
+	[songs.dream_on]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
+	[songs.sympathy_for_the_devil]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
+	[songs.the_reaper]
+		triggers = [ "dimension-overworld" "zones-yngland" ]
 
 [triggers]
 	[[triggers.dimension]]
@@ -156,3 +176,13 @@
 		zone_min_x = 5540
 		zone_min_y = 40
 		zone_min_z = "-6891"
+		zone_min_z = 7232
+	[[triggers.zones]]
+		identifier = "yngland"
+		priority = 3500
+		zone_max_x = 5640
+		zone_max_y = 200
+		zone_max_z = "-7101"
+		zone_min_x = 5380
+		zone_min_y = 40
+		zone_min_z = "-7280"
