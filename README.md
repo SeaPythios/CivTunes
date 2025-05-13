@@ -2,7 +2,8 @@
  Localized music for CivMC
 
 ## Installation Instructions:
-- Install "MusicTriggers" mod from Modrinth for 1.21.1
+- Install "MusicTriggers" mod from Modrinth for 1.21.1 https://modrinth.com/mod/music-triggers
+
 - Drag the folder labeled "MusicTriggers" into your \minecraft\config folder
 - Enjoy the tunes
 
