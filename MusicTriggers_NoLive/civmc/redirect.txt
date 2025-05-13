@@ -38,4 +38,3 @@ dream_on = https://youtu.be/89dGC8de0CA
 sympathy_for_the_devil = https://youtu.be/GgnClrx8N2k
 the_reaper = https://youtu.be/Dy4HA3vUv2c
 
-civradio = http://174.169.233.7:8000/stream

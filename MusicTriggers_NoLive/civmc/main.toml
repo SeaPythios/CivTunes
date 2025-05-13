@@ -79,9 +79,6 @@
 		triggers = [ "dimension-overworld" "zones-yngland" ]
 	[songs.the_reaper]
 		triggers = [ "dimension-overworld" "zones-yngland" ]
-	[songs.civradio]
-		triggers = [ "dimension-overworld" "zones-icenia_radio" ]
-		volume = 2
 
 
 [triggers]
