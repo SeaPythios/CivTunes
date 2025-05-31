@@ -219,7 +219,7 @@
 		zone_max_z = "-4120"
 		zone_min_x = "-4000"
 		zone_min_y = 40
-		zone_min_z = "-4520"		zone_min_z = "-4520"
+		zone_min_z = "-4520"
 	[[triggers.zones]]
 		identifier = "khalkedonia"
 		priority = 3500
