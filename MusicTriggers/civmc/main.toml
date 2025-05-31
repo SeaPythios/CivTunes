@@ -82,6 +82,27 @@
 	[songs.civradio]
 		triggers = [ "dimension-overworld" "zones-icenia_radio" ]
 		volume = 2
+	[songs.a_thousand_greetings]
+		triggers = ["dimension-overworld" "zones-khalkedonia" ]
+
+	[songs.requiem]
+		triggers = ["dimension-overworld" "zones-khalkedonia" ]
+
+	[songs.sands_of_tide]
+		triggers = ["dimension-overworld" "zones-khalkedonia" ]
+
+	[songs.heaven_pierce_her]
+		triggers = ["dimension-overworld" "zones-khalkedonia" ]
+
+	[songs.the_world_looks_white]
+		triggers = ["dimension-overworld" "zones-khalkedonia" ]
+
+	[songs.the_sacred_war]
+		triggers = ["dimension-overworld" "zones-khalkedonia" ]
+
+	[songs.chinese_instrumental]
+		triggers = ["dimension-overworld" "zones-khalkedonia" ]
+
 
 
 [triggers]
@@ -198,4 +219,13 @@
 		zone_max_z = "-4120"
 		zone_min_x = "-4000"
 		zone_min_y = 40
-		zone_min_z = "-4520"
+		zone_min_z = "-4520"		zone_min_z = "-4520"
+	[[triggers.zones]]
+		identifier = "khalkedonia"
+		priority = 3500
+		zone_max_x = 8032
+		zone_max_y = 200
+		zone_max_z = "-4170"
+		zone_min_x = 7638
+		zone_min_y = 40
+		zone_min_z = "-4863"

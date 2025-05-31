@@ -39,3 +39,11 @@ sympathy_for_the_devil = https://youtu.be/GgnClrx8N2k
 the_reaper = https://youtu.be/Dy4HA3vUv2c
 
 civradio = https://civradio.yoru.cafe/stream
+
+a_thousand_greetings = https://youtu.be/gYANvQPPukM?si=XaFpfwQY0_oSSNko
+requiem = https://www.youtube.com/watch?v=rD3ONF40PYw
+sands_of_tide = https://youtu.be/HUYZu3LpMHM?si=DrCxgBYhnVErIZZw
+heaven_pierce_her = https://www.youtube.com/watch?v=DLIBgKc3JtY
+the_world_looks_white = https://www.youtube.com/watch?v=A1pAt3KTMLY
+the_sacred_war = https://youtu.be/N7Njd9PtmaM?si=P5VgflLhdU9azl3R
+chinese_instrumental = https://youtu.be/00go02OKo8w?si=m05qXC5ZCOm_yBCk
